@@ -1,0 +1,43 @@
+.blog{
+    padding-top: 84px;
+    &__images{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1440px;
+        img{
+            width: 719px;
+            height: 719px;
+        }
+    }
+    &__wrapper{
+        padding-top: 84px;
+        max-width: 1058px;
+    }
+    &__text {
+        margin: 0;
+        font-weight: 400;
+        font-size: 71px;
+        line-height: 88px;
+
+        letter-spacing: 3.5px;
+
+        color: #202020;
+        span{
+            font-weight: 700;
+            font-size: 64px;
+        }
+    }
+    &__item{
+        padding-top: 17px;
+        &-link{
+            padding-right: 15px;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+
+            color: #202020;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.catalog{
+    
+    &__items{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 84px;
+    }
+    &__item{
+        width: 50%
+    }
+    &__title{
+        @include font_styles;
+    }
+    &__descr{
+        padding: 38px 0 35px 0;
+        
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 31px;
+        letter-spacing: 0.3px;
+    
+        color: #202020;
+    }
+    &__img{
+        width: 50%
+        img{
+            width: 582px;
+            height: 776px;
+        }
+    }
+}
